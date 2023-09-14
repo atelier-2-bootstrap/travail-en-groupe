@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-nav li a:hover{
+    /* padding-bottom: 70px; */
+    border-bottom: 2px solid;
+}
+.navbar-nav li a:hover{
+    
+    color: #cc9900;
+    border-color: #cc9900;
+    /* border-bottom: 2px solid #cc9900; */
+}
+#vert{
+    
+    width: 150px;
+    background-color: #66cc66;
+    color: white;
+    
+}
+#vert:hover{
+   
+    background-color: white;
+    color: #66cc66;
+}
+.drpdown li a:hover{
+    border: none;
+    outline: none;
+}
+/************************************************ fin-header***************************************************** */
+
+
+
+/***************************************** debut-footer ***************************************************/
+footer{
+   position: relative;
+   top: 200px;
+    background-image: url('images/africaine.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#footer{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+   left: 0px;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+   background-color: #006666;
+   opacity: 0.9;
+}
+footer i{
+    color: white;
+}
+#img-foot{
+    width: 70px;
+    height: 70px;
+}
+
+#row3{
+    border-top: 2px solid white;
+}

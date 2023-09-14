@@ -3,22 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SERVICES</title>
+    <title>atelier-3-bootstrap</title>
+    <link rel="stylesheet" href="investir.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 </head>
 <body>
-    <header>
+    <header class="container mb-5">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="images/logo (1).svg" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="bi bi-justify"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link me-2 fs-5" href="index.html">Accueil</a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-2 fs-5" href="qui-somme-nous.html">Quis somme-nous</a>
+                  </li>
+                  <li class="nav-item">
+                    <!-- <a class="nav-link me-2 fs-5" href="#">Service</a> -->
+                    <div class="dropdown ">
+                        <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                           Service
+                        </a>
+            
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">INGENIEUR LOGICIEL</a></li>
+                            <li><a class="dropdown-item" href="#">UX/UI DESIGN</a></li>
+                            <li><a class="dropdown-item" href="#">MARKETING DIGITAL</a></li>
+                            <li><a class="dropdown-item" href="#">INFOGRAPHIE/VIDEO EDITING</a></li>
+                            <li><a class="dropdown-item" href="#">CLOUD FACTORY</a></li>
+                            <li><a class="dropdown-item" href="#">INFOGERANCE/SUPPORT IT</a></li>
+                        </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-2 fs-5" href="filiales.html">Filiales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-2 fs-5" href="investir.html">Investir</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link me-2 fs-5" href="#">Evenement</a>
+                  </li> -->
+                  <div class="dropdown ">
+                    <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                       Evenement
+                    </a>
+        
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                       <li><a class="dropdown-item" href="#"> Tout les evenement</a></li>
+                       <li><a class="dropdown-item" href="#">Kokoutana</a></li>
+                       <li><a class="dropdown-item" href="#">Jeema coder</a></li>
 
+                    </ul>
+                </div>
+                  <li class="nav-item">
+                    <a class="nav-link me-2 fs-5" href="#">Blog</a>
+                  </li>
+                  <li>
+                    <div class=" ms-5 d-flex justify-content-center align-items-center" id="vert">
+                        <p>j'ai un projet</p>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+              
+            </div>
+          </nav>
     </header>
-    <!--------------------------------------------- main ---------------------------------------------->
+    <!--------------------------------------------------------- main -------------------------------------------------------------->
     <main>
-
+      
     </main>
-    <!---------------------------------------------------- footer ----------------------------------------->
-    <footer>
+    <!---------------------------------------------------- footer ---------------------------------------------------->
+    <footer class="mt-5">
+      <div id="footer" class="">
+        <div class="container">
+            <div class="row gx-5 gy-5">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-3">
+                    <div>
+                        <div>
+                            <img src="images/logo (1).svg" alt="logo" id="img-foot">
+                           
+                        </div>
+                        <p>Volkeno est une startup studio basée à Dakar,SN. Elle a été créée en 2015 et a pour vocation de contribuer à la révolution numérique en cours dans le but de créer mais aussi d’accompagner des jeunes porteurs de projet à créer des produits innovants à forte valeur ajoutée.</p>
+    
+                    </div>
+    
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div>
+                        <h5>volkeno</h5>
+                        <p>Qui Sommes Nous?</p>
+                        <p>Notre equipe</p>
+                        <p>Nos Services</p>
+                        <p>Prix et distinctions</p>
+    
+                    </div>
+    
+                </div> 
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div>
+                        <h5>evenement</h5>
+                        <p>Kokùtana</p>
+                        <p>Jeema coder</p>
+    
+                    </div>
+    
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div>
+                        <h5>nos startup</h5>
+                        <p>Bakeli</p>
+                        <p>Andu</p>
+                        <p>Fewnu</p>
+                        <p>Tayeur</p>
+    
+                    </div>
+    
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-12 col-lg-3 col-sl-3">
+                    <div>
+                       <h3>contact</h3>
+                       <p> <i class="bi bi-geo-alt me-3"></i>Hlm Grand Yoff Villa n°241 près du terminus des bus Dakar Dem Dikk qui vont à l'AIBD
+                        Dakar 11500</p>
+                        <p> <i class="bi bi-telephone me-3" style="color: white;"></i> (+221) 33 827 67 91</p>
+                        <p> <i class="bi bi-envelope me-3" style="color: white;"></i> contact@volkeno.sn</p>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+           
+            <div class="py-5 d-flex justify-content-center" id="row2">
+                <i class="bi bi-twitter mx-3"></i>
+                <i class="bi bi-linkedin mx-3"></i>
+                <i class="bi bi-instagram mx-3"></i>
+                <i class="bi bi-facebook mx-3"></i>
 
+            </div>
+            <div class="row  gy-3" id="row3">
+                <div class="col-md-4 col-sm-12">
+                    <div>
+                        <p> <i class="bi bi-c-circle"></i> 2023 Tous droits réservés - Volkeno SARL</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div>
+                        <h5>Mentions légales</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div>
+                        <p>Politique de confidentialité</p>
+                    </div>
+                </div>
+    
+            </div>
+    
+           </div>
+      </div>
     </footer>
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>   
 </body>
 </html>
