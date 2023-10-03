@@ -12,9 +12,9 @@ body {
 }
 
 .btn {
-    background-color: #12e0a5;
+    /* background-color: #12e0a5; */
     width: 150px;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .btn:hover {
