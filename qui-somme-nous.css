@@ -9,23 +9,37 @@
 }
 .navbar-nav li a:hover{
     
-    color: #cc9900;
-    border-color: #cc9900;
+    color: #FF9800;
+    border-color: #FF9800;
     /* border-bottom: 2px solid #cc9900; */
 }
 #vert{
     width: 150px;
-    background-color: #66cc66;
+    background-color: #05B192;
     color: white;
     
 }
 #vert:hover{
     background-color: white;
-    color: #66cc66;
+    color: #05B192;
 }
 /************************************************ fin-header***************************************************** */
 
-
+/* ***********************main/ */
+.bgimage{
+    background: url('./image/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.section1{
+    background-color:#05B192 ;
+    height: 100%
+}
+.Trais{
+    border-bottom: 6px solid #FF9800;
+  
+}
 
 /***************************************** debut-footer ***************************************************/
 footer{
@@ -45,7 +59,7 @@ footer{
     display: flex;
    align-items: center;
     justify-content: center;
-   background-color: #006666;
+   background-color: #05B192;
    opacity: 0.9;
 }
 footer i{
