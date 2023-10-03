@@ -25,6 +25,37 @@
 }
 /************************************************ fin-header***************************************************** */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-color: #09c19f;
+    color: white;
+    padding:50px;
+}
+#Services p{
+    font-size:20px;
+}
+#Services h1{
+    font-weight:700;
+    font-size: 40px;
+    width:135px;
+    border-bottom: 5px solid #09c19f;
+}
+#Services h5{
+    font-weight:100;
+    font-size: 25px;
+}
+#Services img{
+    border-radius: 10px;
+}
+#Services a{
+    background:orange;
+    color: white;
+
+}
 
 
 /***************************************** debut-footer ***************************************************/
